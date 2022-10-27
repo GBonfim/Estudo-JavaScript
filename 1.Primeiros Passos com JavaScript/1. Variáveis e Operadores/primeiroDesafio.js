@@ -15,4 +15,4 @@ const distancia = 1580; //km
 const litrosConsumidos = distancia / kmPorLitro;
 const valorGasto = litrosConsumidos * precoCombustivel;
 
-console.log("O valor gasto para realizar a viagem será de R$" + valorGasto.toFixed(2));
+console.log("O valor gasto para realizar a viagem será de R$" + valorGasto.toFixed(2)); //toFixed(2) converte o valor em string até a segunda casa decimal, arredonando-o
